@@ -1,0 +1,49 @@
+Image {
+        background-image: url(../Mountains.jpg);
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .sidebar {
+              grid-area: sidebar;
+          }
+      
+          .content {
+              grid-area: content;
+          }
+      
+          .footer {
+              grid-area: footer;
+               
+          }
+      
+      
+          .wrapper {
+              display: grid;
+          grid-gap: 10px;
+              grid-template-columns: 535px 500px;
+              grid-template-areas:
+              "....... header header"
+              "sidebar content content"
+              "footer  footer  footer";
+              background-color: black;
+              color: #444;
+              margin-left: 100px;
+              margin-right: 100px;
+          }
+      
+      
+      .box {
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 150%;
+      }
+      
+      .footer {
+        background-color: white;
+    
+      }
+    
