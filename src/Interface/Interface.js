@@ -15,6 +15,7 @@ class Interface extends Component {
     return (
       <div className='Image' style={divStyle}>
         <Nav />
+        <div className='header'></div>
         <div className='container-1'>
           <div className='box-1'>
             <h3>Box One</h3>
