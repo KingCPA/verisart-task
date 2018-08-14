@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Interface.less';
-import Nav from '../Nav/Nav';
 
 const Image = require('../Mountains.jpg');
 const divStyle = {
@@ -14,8 +13,7 @@ class Interface extends Component {
   render() {
     return (
       <div className='Image' style={divStyle}>
-        <Nav />
-        <div className='header'></div>
+        <div className='header'>hello</div>
         <div className='container-1'>
           <div className='box-1'>
             <h3>Box One</h3>
@@ -24,7 +22,6 @@ class Interface extends Component {
             <p>ANTHONY LEPORE</p>
           </div>
         </div>
-
       </div>
     );
   }

@@ -6,7 +6,6 @@ class Footer extends Component {
     return (
       <div className="footer">
           <div className='box-3'>
-            <h3>Box Three</h3>
           </div>
       </div>
     );

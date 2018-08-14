@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Nav.less';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
   render() {
     return (
-      <div className='container'>
         <nav className='blackNav'>
           <div className='navContainer'>
             <a id='logo' href='/'>
@@ -14,11 +14,10 @@ class Nav extends Component {
               <li className='btn-news'><a href='/news'>NEWS</a></li>
               <li className='btn-partners'><a href='/partners'>PARTNERS</a></li>
               <li className='btn-join'><a href='/join'>JOIN</a></li>
-              <li className='btn-login'><a href='/login'>lOGIN</a></li>
+              <li className='btn-login'><Link to='/login'>LOGIN</Link></li>
             </ul>
           </div>
         </nav>
-      </div>
     );
   }
 }
