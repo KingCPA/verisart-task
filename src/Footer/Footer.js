@@ -5,8 +5,8 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-          <div className='box-3'>
-          </div>
+        <div className='box-3'>
+        </div>
       </div>
     );
   }

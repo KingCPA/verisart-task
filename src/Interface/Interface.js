@@ -6,7 +6,7 @@ class Interface extends Component {
     return (
       <div className='Image'>
         <div className='header'>
-        <p>Certificate</p>
+          <p>Certificate</p>
         </div>
         <div className='container-1'>
           <div className='box-1'>
