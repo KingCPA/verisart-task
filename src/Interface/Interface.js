@@ -21,7 +21,7 @@ class Interface extends Component {
             <h3>Box One</h3>
           </div>
           <div className='box-2'>
-            <h3>Box Two</h3>
+            <p>ANTHONY LEPORE</p>
           </div>
         </div>
 
