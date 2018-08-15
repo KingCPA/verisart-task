@@ -1,4 +1,4 @@
-.Image {
+.maincontainer {
         background-image: url('../Mountains.jpg');
         height: 100%; 
         background-position: center;
@@ -12,13 +12,19 @@
         display: flex;
         justify-content: space-around;
         padding-top: 40px;
+        z-index: 2;
     }
 
     .box-1 {
         background-image: url('../Mountains.jpg');
         background-repeat: no-repeat;
         background-size: 80%;
-        background-position: 40% 40%;    
+        background-position: 40% 40%;  
+        z-index: 2;  
+    }
+    
+    .box-2 p{
+        font-size: 15px;
     }
 
     .container-1 div {
@@ -27,6 +33,7 @@
         background-color: white;
         margin-left: 26px;
     }
+    
     .header {
         display: flex;
         background-color: white;
@@ -34,7 +41,9 @@
         margin-right: 94px;
         height: 90px;
         text-align: center;
+        z-index: 2;
     }
+
     .box-bottom { 
         display: flex;
         background-color: white;
@@ -44,32 +53,43 @@
         margin-top: 50px;
         margin-bottom: 10px;
     }
+
     .box-bottom p {
-        color: black;
+        color: grey;
         
     }
+
     .header p {
         font-size: 15px;
         text-align: center;
     }
+
     .header div {
         // border: 1px solid black;
         display: flex;
         padding-top: 25px;
-    
     }
+
     .header-icon {
       background-image: url(https://s3.amazonaws.com/verisart.assets/img/logo/verisart-cert-badge-180.png);
      padding-left: 90px;
      background-size: 90px;
      background-repeat: no-repeat;
     }
+
     .header-cert {
     padding: 10%;
     }
     
     .header-blockchain {
         font-size: 10px;
+    }
+    .time{
+        display: block;    
+    }
+
+    span {
+        color: green;
     }
 
     
