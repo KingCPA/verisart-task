@@ -6,7 +6,12 @@ class Interface extends Component {
     return (
       <div className='Image'>
         <div className='header'>
-          <p>Certificate</p>
+          <div className='header-icon'></div>
+          <div className='header-cert'>Certificate</div>
+          <div className='header-blockchain'>
+          The certificate, provenance data and related cryptographic functions herein are timestamped by the Bitcoin blockchain at 
+          00000000000000000022ff211f1bbf05331b79363550aa94cd286c8a1e0136f3</div>
+          <div className='time'>August 14th 2018 12:51:22 UTC CONFIRMED</div>
         </div>
         <div className='container-1'>
           <div className='box-1'>
