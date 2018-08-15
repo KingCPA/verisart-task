@@ -21,7 +21,12 @@ class Interface extends Component {
           <div className='box-1'>
           </div>
           <div className='box-2'>
-          <p>Anthony Lepore</p>
+          <p>Anthony Lepore<hr/></p>
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
           </div>
         </div>
 
