@@ -22,16 +22,11 @@ class Interface extends Component {
           </div>
           <div className='box-2'>
           <p>Anthony Lepore<hr/></p>
-          <hr />
-          <hr />
-          <hr />
-          <hr />
-          <hr />
           </div>
         </div>
 
         <div className='box-bottom'>
-          <p>Detailed provenance for this artwork is currently locked.</p>
+          Detailed provenance for this artwork is currently locked.
         </div>
       </div>
     );
