@@ -17,10 +17,10 @@ class Interface extends Component {
           <div className='box-1'>
           </div>
           <div className='box-2'>
-            <p>ANTHONY LEPORE</p>
           </div>
         </div>
         <div className='box-bottom'>
+        <p>Detailed provenance for this artwork is currently locked.</p>
         </div>
       </div>
     );
