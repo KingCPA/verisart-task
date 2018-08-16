@@ -80,7 +80,7 @@ class Interface extends Component {
                 <li>URL</li>
               </div>
               <div className='value'>
-              <li>https://www.verisart.com/works/000000000000000000000</li>
+                <li>https://www.verisart.com/works/000000000000000000000</li>
               </div>
             </div>
             <div className='container-box'>
