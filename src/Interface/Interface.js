@@ -13,7 +13,7 @@ class Interface extends Component {
             The certificate, provenance data and related cryptographic
             functions herein are timestamped by the Bitcoin blockchain at
           00000000000000000022ff211f1bbf05331b79363550aa94cd286c8a1e0136f3</div>
-          <div className='time'>August 14th 2018 12:51:22 UTC<span>confirmed</span></div>
+          <div className='time'>August 14th 2018 12:51:22 UTC <span>confirmed</span></div>
         </div>
         <div className='container-1'>
           <div className='box-1'>
@@ -80,7 +80,7 @@ class Interface extends Component {
                 <li>URL</li>
               </div>
               <div className='value'>
-                <li>https://www.verisart.com/works/0000000000000000000000000000</li>
+              <li>https://www.verisart.com/works/000000000000000000000</li>
               </div>
             </div>
             <div className='container-box'>
